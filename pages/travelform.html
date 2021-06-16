@@ -11,26 +11,28 @@
   </head>
   <body>
     <nav class="main-nav">
-      <h1 class="main-nav__logo">Travel Site</h1>
+      <h1 class="main-nav__logo">
+        <a class="main-nav__logo" href="../index.html">Travel Site</a>
+      </h1>
       <ul class="main-nav__list">
         <li class="main-nav__list-item">
-          <a class="main-nav__list-item" href="index.html">Home</a>
+          <a class="main-nav__list-item" href="../index.html">Home</a>
         </li>
         <li class="main-nav__list-item">
-          <a class="main-nav__list-item" href="./pages/hawaii.html">Hawaii</a>
+          <a class="main-nav__list-item" href="./hawaii.html">Hawaii</a>
         </li>
         <li class="main-nav__list-item">
-          <a class="main-nav__list-item" href="./pages/iceland.html">Iceland</a>
+          <a class="main-nav__list-item" href="./iceland.html">Iceland</a>
         </li>
         <li class="main-nav__list-item">
-          <a class="main-nav__list-item" href="./pages/greece.html">Greece</a>
+          <a class="main-nav__list-item" href="./greece.html">Greece</a>
         </li>
       </ul>
     </nav>
     <body>
       <section class="formcontainer">
-        <form class="form-card" action="/pages/travelform.html">
-          <form action="/index.html">
+        <div>
+          <form action="./pages/travelform.html" class="form-card">
             <label class="form-card__title" for="fname">First name</label><br />
             <input type="text" id="fname" name="fname" value="John" /><br />
             <label class="form-card__title" for="lname">Last name</label><br />
@@ -52,7 +54,7 @@
             </select>
             <div class="formbutton">SUBMIT</div>
           </form>
-        </form>
+        </div>
       </section>
 
       <footer class="footer-container">
