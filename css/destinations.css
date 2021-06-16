@@ -1,0 +1,65 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+}
+
+.main__container--greece {
+    background-image: url('../assets/Images/greece.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 800px;
+    
+}
+.main__container--hawaii {
+    background-image: url('../assets/Images/hawaii.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 800px;
+    
+}
+.main__container--iceland {
+    background-image: url('../assets/Images/iceland.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 800px;
+    
+}
+.destination-title {
+    font-size: 100px;
+    font-weight: bold;
+    color:white;
+    padding-top: 0.5em;
+    padding-left: 1em;
+}
+.destinationCards {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888888;
+    margin: 1em;
+    background-color: #ffff;
+}
+.destinationCards__title {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 20px;
+    border-bottom: 5px black solid;
+}
+.destinationCards__li {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #FEFAF5;
+}
