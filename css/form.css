@@ -39,9 +39,10 @@
 .formbutton {
   color: white;
   font-size: 21px;
-  font-weight: bold;
+  font-weight: 400;
   background-color: #db7a4e;
   padding: 10px 20px;
   border-radius: 40px;
   margin-top: 30px;
+  text-align: center;
 }
