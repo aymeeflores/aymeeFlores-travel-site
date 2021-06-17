@@ -12,7 +12,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 20px;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
 }
 .main-nav__logo {
   font-size: 31px;
